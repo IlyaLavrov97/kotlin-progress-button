@@ -16,8 +16,8 @@ class ProgressButton @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : AppCompatButton(context, attrs, defStyleAttr) {
 
-    private var progressDrawable: CircularAnimatedDrawable =
-        CircularAnimatedDrawable(
+    private var progressDrawable: TestAnimatedDrawable =
+        TestAnimatedDrawable(
             TypedValue.applyDimension(
                 TypedValue.COMPLEX_UNIT_SP,
                 5f,
